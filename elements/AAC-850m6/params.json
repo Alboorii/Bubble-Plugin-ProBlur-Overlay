@@ -1,0 +1,74 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "ProBlur Blocker",
+    "fields": {
+        "AAE": {
+            "caption": "Blur Intensity",
+            "default_val": 8,
+            "doc": "The pixel value for the CSS filter: blur().",
+            "editor": "StaticNumber",
+            "name": "blur_intensity",
+            "rank": 0,
+            "value": "number"
+        },
+        "AAF": {
+            "caption": "Overlay Color",
+            "default_val": "rgba(0, 0, 0, 1)",
+            "doc": "The background color of the overlay.",
+            "editor": "Color",
+            "name": "overlay_color",
+            "rank": 1
+        },
+        "AAG": {
+            "caption": "Overlay Opacity",
+            "default_val": 0.6,
+            "doc": "The transparency (0.0 to 1.0) of the overlay.",
+            "editor": "StaticNumber",
+            "name": "overlay_opacity",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAH": {
+            "caption": "Message Text",
+            "default_val": "Upgrade to Pro for full access! 🔓",
+            "doc": "The main message shown to the user.",
+            "editor": "DynamicValue",
+            "name": "message_text",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAI": {
+            "caption": "Button Text",
+            "default_val": "Login Now",
+            "doc": "The text for the CTA button.",
+            "editor": "DynamicValue",
+            "name": "button_text",
+            "rank": 4,
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "Button Color",
+            "default_val": "rgba(255,193,7,1)",
+            "doc": "The background color of the button.",
+            "editor": "Color",
+            "name": "button_color",
+            "rank": 5
+        },
+        "AAK": {
+            "caption": "Transition Speed",
+            "default_val": 0.4,
+            "doc": "Animation speed in seconds.  Export to Sheets",
+            "editor": "StaticNumber",
+            "name": "transition_speed",
+            "rank": 6,
+            "value": "number"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "platform_type": "web"
+}

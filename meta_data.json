@@ -1,0 +1,11 @@
+{
+    "categories": {
+        "0": "containers",
+        "1": "technical"
+    },
+    "data_tracked": false,
+    "description": "Instantly upgrade your content protection and user experience. ProBlur lets you quickly hide content behind a sleek, customizable blur overlay with a compelling call-to-action (CTA). Fully customizable: control blur intensity, overlay color, text, buttons, and more. Works flawlessly on all screen sizes and never conflicts with native Bubble elements. The professional way to gate your content.\n",
+    "image": "//meta-q.cdn.bubble.io/f1759674387320x851172152902922100/ProBlur.png",
+    "license": "open_source",
+    "name": "ProBlur Overlay"
+}
